@@ -192,14 +192,6 @@
     height: auto;
   }
   /* About自己紹介 */
-  #about {
-    text-align: center;
-    font-size:34px;
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 22px;
-  }
   .jikosyoukai {
     width: 100%;
     display: flex;
