@@ -152,27 +152,28 @@
 
   .container  {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto; 
+    margin: 30px auto 0 auto; 
+    flex-wrap: wrap;
   }
   h1 {
     font-size: 34px;
     align-self: center;
     font-weight: bold;
     font-family: "Noto Sans JP", sans-serif;
-    margin-left: 20px;
+    margin: 0 20px;
+    padding: 0;
   }
   .home {
     border: 1px solid #000000;
     text-decoration-line: none;
     padding: 12px 29px;
     color: #000000;
+    margin: 0;
   }
 
   .container nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
   }
   nav ul li {
     margin: 0;
@@ -180,7 +181,7 @@
   .container nav ul li a {
     color: #000000;
     text-decoration: none;
-    margin: 30px 10px 0 10px;
+    margin: 0 10px 0 10px;
     font-weight: bold;
   }
 
